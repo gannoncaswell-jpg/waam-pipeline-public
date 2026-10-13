@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "waam-pipeline"
+version = "0.1.0"
+description = "Slicer G-code to Yaskawa robot motion for LeTourneau WAAM"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "matplotlib>=3.7",
+    "trimesh>=4.0",
+]
+
+[project.scripts]
+waam-approve = "waam_pipeline.approve:main"
+
+[project.optional-dependencies]
+cad = ["cadquery>=2.4", "vtk>=9.2"]
+passkeys = ["webauthn>=2.0"]
+release = ["cryptography>=50.0"]
+test = ["webauthn>=2.0", "soft-webauthn==0.1.3", "fido2==0.9.3"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+waam_pipeline = ["_vendor/*", "*.js", "*.css", "sql/*.sql", "sql/runlog/*.sql"]
+
+[tool.ruff]
+required-version = "==0.16.9"
+target-version = "py310"
+extend-exclude = ["src/waam_pipeline/_vendor"]
+
+[tool.ruff.lint]
+select = ["E9", "F", "B006", "B012", "B016", "B018", "B019", "B023", "B025", "B033", "B034", "B035"]
+ignore = ["F401", "F541", "F841"]

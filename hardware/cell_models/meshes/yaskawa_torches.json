@@ -1,0 +1,3378 @@
+{
+  "source_archive": "Yaskawa-Torches.zip",
+  "source_sha256": "a2082235c850d21e9cde8ce9edb11c3b3df7b6eb305623e4ca7ae257d9bd0f11",
+  "source_bytes": 10580758,
+  "format": "Yaskawa MotoSim HSF V20.95",
+  "units": "mm",
+  "array_frame": "native HSF mm",
+  "default_variant": "45d_shock_mnt",
+  "display_area_threshold_mm2": 1e-06,
+  "mesh_sha256": "f5efcf1d7389d40cdef950cda8a8c6a55ee4a3c42c3d2e96121fbfb0b7e32dba",
+  "decoder_sha256": "ca1bcf79acb850b27e434e9bea311dfe3a4e29ff6923dee5c403ebea5ba230fb",
+  "variants": {
+    "22d_hard_mnt_brake": {
+      "name": "22D-Hard_Mnt-Brake_Yaskawa_Torch",
+      "source_member": "Yaskawa Torches/22D-Hard_Mnt-Brake_Yaskawa_Torch/Yaskawa_Torch-Hard-Brake-22DEG.hsf",
+      "source_sha256": "cd214c4d0c88d2c11cd130d2a813350625742a471c812eeca3ad2bc9b517553f",
+      "source_item_member": "Yaskawa Torches/22D-Hard_Mnt-Brake_Yaskawa_Torch/ITEM.ini",
+      "source_item_sha256": "2d38a98557a117d5aad06609556b6b18e248e579012773b2f60a24dfb681401c",
+      "tool_data_yaskawa": [
+        -54.997,
+        0.0,
+        347.923,
+        0.0,
+        -22.0,
+        0.0
+      ],
+      "source_model_axis6": [
+        0.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        -90.0
+      ],
+      "source_model_scale": 0.001,
+      "registration": {
+        "rotation": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "translation_mm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "status": "Vendor nominal flange-mounted display; installed side orientation and consumable not independently verified",
+        "evidence": "ITEM AXIS6 Rz(-90 deg), followed by proper Yaskawa-to-project rotation (z,-y,x), gives native (z,x,y); native flange plane Z=0; no TCP fit or extra scale"
+      },
+      "groups": [
+        {
+          "array_key": "22d_hard_mnt_brake_shell_00",
+          "shell": 0,
+          "triangles": 2580,
+          "source_triangles": 2582,
+          "removed_subthreshold_triangles": 2,
+          "removed_area_mm2": 1.0349706401650351e-06,
+          "bounds_native_mm": [
+            [
+              -39.19620895385742,
+              -39.14106750488281,
+              29.778594970703125
+            ],
+            [
+              39.19621276855469,
+              39.35466003417969,
+              263.8290100097656
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_hard_mnt_brake_shell_01",
+          "shell": 1,
+          "triangles": 2945,
+          "source_triangles": 2954,
+          "removed_subthreshold_triangles": 9,
+          "removed_area_mm2": 2.919779644479424e-06,
+          "bounds_native_mm": [
+            [
+              -6.860000133514404,
+              -50.60757827758789,
+              91.96678161621094
+            ],
+            [
+              6.822420120239258,
+              7.898617744445801,
+              330.8070068359375
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_hard_mnt_brake_shell_02",
+          "shell": 2,
+          "triangles": 3025,
+          "source_triangles": 3030,
+          "removed_subthreshold_triangles": 5,
+          "removed_area_mm2": 2.160128924331245e-06,
+          "bounds_native_mm": [
+            [
+              -11.988541603088379,
+              -32.33984375,
+              49.852081298828125
+            ],
+            [
+              11.987274169921875,
+              57.80841064453125,
+              275.74420166015625
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_hard_mnt_brake_shell_03",
+          "shell": 3,
+          "triangles": 2756,
+          "source_triangles": 2756,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -11.992690086364746,
+              -32.74250411987305,
+              79.7181396484375
+            ],
+            [
+              11.992690086364746,
+              11.1922025680542,
+              268.7955627441406
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_hard_mnt_brake_shell_04",
+          "shell": 4,
+          "triangles": 196,
+          "source_triangles": 196,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -9.495806694030762,
+              -46.36840057373047,
+              272.99591064453125
+            ],
+            [
+              9.495806694030762,
+              -17.70709800720215,
+              307.8623962402344
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_hard_mnt_brake_shell_05",
+          "shell": 5,
+          "triangles": 3178,
+          "source_triangles": 3181,
+          "removed_subthreshold_triangles": 3,
+          "removed_area_mm2": 1.870771050209287e-06,
+          "bounds_native_mm": [
+            [
+              -40.0,
+              -39.82936477661133,
+              0.0
+            ],
+            [
+              40.0,
+              39.999725341796875,
+              145.62030029296875
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_hard_mnt_brake_shell_06",
+          "shell": 6,
+          "triangles": 128,
+          "source_triangles": 128,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -9.119606018066406,
+              -35.00396728515625,
+              269.3927001953125
+            ],
+            [
+              9.24209976196289,
+              -16.443111419677734,
+              279.89776611328125
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_hard_mnt_brake_shell_07",
+          "shell": 7,
+          "triangles": 12298,
+          "source_triangles": 12322,
+          "removed_subthreshold_triangles": 24,
+          "removed_area_mm2": 1.3398281798051076e-05,
+          "bounds_native_mm": [
+            [
+              -13.94299030303955,
+              -55.733909606933594,
+              77.95100402832031
+            ],
+            [
+              13.99771785736084,
+              14.754014015197754,
+              330.748291015625
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_hard_mnt_brake_shell_08",
+          "shell": 8,
+          "triangles": 188,
+          "source_triangles": 188,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -5.0,
+              30.403274536132812,
+              67.18031311035156
+            ],
+            [
+              4.999999046325684,
+              39.9285888671875,
+              78.736083984375
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        }
+      ],
+      "bounds_native_mm": [
+        [
+          -40.0,
+          -55.733909606933594,
+          0.0
+        ],
+        [
+          40.0,
+          57.80841064453125,
+          330.8070068359375
+        ]
+      ],
+      "triangles": 27294,
+      "source_triangles": 27337,
+      "removed_subthreshold_triangles": 43,
+      "removed_area_mm2": 2.1383932057236067e-05,
+      "notes": [
+        "Display-only vendor MotoSim HSF tessellation, not a BRep or a collision/calibration source.",
+        "Every supported face is already a source triangle; no concave polygons, polygon holes, decimation or fan triangulation used.",
+        "All geometric shells retained, including internal surfaces; empirically decoded HSF materials and full segment tree remain unsupported.",
+        "Header and decoded bounds match independently in mm. ITEM SCALE=0.001 converts these mm to MotoSim metres and must not be applied again.",
+        "Native mounting flange is Z=0. Non-brake locating pilots extend to Z=-4.5; bounding-box minimum is not a seating plane.",
+        "Vendor TOOL_DATA is nominal metadata only; installed controller TOOL0 remains authoritative."
+      ]
+    },
+    "22d_hard_mnt": {
+      "name": "22D-Hard_Mnt_Yaskawa_Torch",
+      "source_member": "Yaskawa Torches/22D-Hard_Mnt_Yaskawa_Torch/Yaskawa_Torch-Hard-22DEG.hsf",
+      "source_sha256": "60239e03ee305eff7a7f07d5574972b255ad765aeaf2287018e149c0643af7c5",
+      "source_item_member": "Yaskawa Torches/22D-Hard_Mnt_Yaskawa_Torch/ITEM.ini",
+      "source_item_sha256": "09780e19a7d212538d616f0f9fd35eeba76c6dde816c09321c06a78cf3a99bac",
+      "tool_data_yaskawa": [
+        -56.835,
+        0.0,
+        328.904,
+        0.0,
+        -22.0,
+        0.0
+      ],
+      "source_model_axis6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -90.0
+      ],
+      "source_model_scale": 0.001,
+      "registration": {
+        "rotation": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "translation_mm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "status": "Vendor nominal flange-mounted display; installed side orientation and consumable not independently verified",
+        "evidence": "ITEM AXIS6 Rz(-90 deg), followed by proper Yaskawa-to-project rotation (z,-y,x), gives native (z,x,y); native flange plane Z=0; no TCP fit or extra scale"
+      },
+      "groups": [
+        {
+          "array_key": "22d_hard_mnt_shell_00",
+          "shell": 0,
+          "triangles": 855,
+          "source_triangles": 856,
+          "removed_subthreshold_triangles": 1,
+          "removed_area_mm2": 2.633988027660005e-07,
+          "bounds_native_mm": [
+            [
+              -11.988541603088379,
+              -33.82728576660156,
+              88.2699966430664
+            ],
+            [
+              11.987274169921875,
+              11.999991416931152,
+              256.90289306640625
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_hard_mnt_shell_01",
+          "shell": 1,
+          "triangles": 124,
+          "source_triangles": 126,
+          "removed_subthreshold_triangles": 2,
+          "removed_area_mm2": 7.55350811232347e-07,
+          "bounds_native_mm": [
+            [
+              -29.06356430053711,
+              -9.92255687713623,
+              21.26999855041504
+            ],
+            [
+              29.06356430053711,
+              9.988114356994629,
+              31.26999855041504
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_hard_mnt_shell_02",
+          "shell": 2,
+          "triangles": 247,
+          "source_triangles": 250,
+          "removed_subthreshold_triangles": 3,
+          "removed_area_mm2": 3.7054542190162465e-07,
+          "bounds_native_mm": [
+            [
+              -29.06356430053711,
+              -28.672088623046875,
+              21.26999855041504
+            ],
+            [
+              29.06356430053711,
+              28.729997634887695,
+              31.26999855041504
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_hard_mnt_shell_03",
+          "shell": 3,
+          "triangles": 210,
+          "source_triangles": 210,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -25.483566284179688,
+              -21.68397331237793,
+              21.26999855041504
+            ],
+            [
+              25.483566284179688,
+              21.741884231567383,
+              31.26999855041504
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_hard_mnt_shell_04",
+          "shell": 4,
+          "triangles": 2868,
+          "source_triangles": 2870,
+          "removed_subthreshold_triangles": 2,
+          "removed_area_mm2": 6.799794902648263e-07,
+          "bounds_native_mm": [
+            [
+              -39.25,
+              -39.25,
+              21.26999855041504
+            ],
+            [
+              39.25,
+              39.25,
+              245.01806640625
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_hard_mnt_shell_05",
+          "shell": 5,
+          "triangles": 2944,
+          "source_triangles": 2954,
+          "removed_subthreshold_triangles": 10,
+          "removed_area_mm2": 4.860485646627452e-06,
+          "bounds_native_mm": [
+            [
+              -6.860000133514404,
+              -52.42658233642578,
+              73.2699966430664
+            ],
+            [
+              6.822420120239258,
+              6.860000133514404,
+              311.80169677734375
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_hard_mnt_shell_06",
+          "shell": 6,
+          "triangles": 196,
+          "source_triangles": 196,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -9.460590362548828,
+              -48.067543029785156,
+              254.0388641357422
+            ],
+            [
+              9.460590362548828,
+              -19.220626831054688,
+              288.96875
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_hard_mnt_shell_07",
+          "shell": 7,
+          "triangles": 4045,
+          "source_triangles": 4048,
+          "removed_subthreshold_triangles": 3,
+          "removed_area_mm2": 2.0687930540468655e-06,
+          "bounds_native_mm": [
+            [
+              -40.0,
+              -39.959720611572266,
+              -4.5
+            ],
+            [
+              40.0,
+              39.959720611572266,
+              126.79000091552734
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_hard_mnt_shell_08",
+          "shell": 8,
+          "triangles": 128,
+          "source_triangles": 128,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -9.119606018066406,
+              -36.51012420654297,
+              250.4591064453125
+            ],
+            [
+              9.24209976196289,
+              -17.96733283996582,
+              261.05419921875
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_hard_mnt_shell_09",
+          "shell": 9,
+          "triangles": 16718,
+          "source_triangles": 16760,
+          "removed_subthreshold_triangles": 42,
+          "removed_area_mm2": 1.9008557729503794e-05,
+          "bounds_native_mm": [
+            [
+              -32.10488510131836,
+              -57.493247985839844,
+              21.26999855041504
+            ],
+            [
+              31.986572265625,
+              32.150001525878906,
+              311.79254150390625
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_hard_mnt_shell_10",
+          "shell": 10,
+          "triangles": 2245,
+          "source_triangles": 2250,
+          "removed_subthreshold_triangles": 5,
+          "removed_area_mm2": 3.2191998997621596e-06,
+          "bounds_native_mm": [
+            [
+              -26.0,
+              -25.961868286132812,
+              83.66999816894531
+            ],
+            [
+              26.0,
+              25.961868286132812,
+              108.41999816894531
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_hard_mnt_shell_11",
+          "shell": 11,
+          "triangles": 36677,
+          "source_triangles": 37050,
+          "removed_subthreshold_triangles": 373,
+          "removed_area_mm2": 0.0001919755075878012,
+          "bounds_native_mm": [
+            [
+              -33.16301345825195,
+              -34.17302703857422,
+              22.470731735229492
+            ],
+            [
+              33.16365051269531,
+              37.20000076293945,
+              249.99417114257812
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        }
+      ],
+      "bounds_native_mm": [
+        [
+          -40.0,
+          -57.493247985839844,
+          -4.5
+        ],
+        [
+          40.0,
+          39.959720611572266,
+          311.80169677734375
+        ]
+      ],
+      "triangles": 67257,
+      "source_triangles": 67698,
+      "removed_subthreshold_triangles": 441,
+      "removed_area_mm2": 0.00022320181844390628,
+      "notes": [
+        "Display-only vendor MotoSim HSF tessellation, not a BRep or a collision/calibration source.",
+        "Every supported face is already a source triangle; no concave polygons, polygon holes, decimation or fan triangulation used.",
+        "All geometric shells retained, including internal surfaces; empirically decoded HSF materials and full segment tree remain unsupported.",
+        "Header and decoded bounds match independently in mm. ITEM SCALE=0.001 converts these mm to MotoSim metres and must not be applied again.",
+        "Native mounting flange is Z=0. Non-brake locating pilots extend to Z=-4.5; bounding-box minimum is not a seating plane.",
+        "Vendor TOOL_DATA is nominal metadata only; installed controller TOOL0 remains authoritative."
+      ]
+    },
+    "22d_shock_mnt_brake": {
+      "name": "22D-Shock_Mnt-Brake_Yaskawa_Torch",
+      "source_member": "Yaskawa Torches/22D-Shock_Mnt-Brake_Yaskawa_Torch/Yaskawa_Torch-Shock-Brake-22DEG.hsf",
+      "source_sha256": "e1e6d3937a5e760d8a3df12f5d5241ff6147ea74b491f5cae6de0e36e117e393",
+      "source_item_member": "Yaskawa Torches/22D-Shock_Mnt-Brake_Yaskawa_Torch/ITEM.ini",
+      "source_item_sha256": "80fdcd30f11dfd67058ae9703d60f7043522052a5ccba0a1741edc5351ac6350",
+      "tool_data_yaskawa": [
+        -56.835,
+        -0.004,
+        389.904,
+        0.0,
+        -22.0,
+        0.0
+      ],
+      "source_model_axis6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -90.0
+      ],
+      "source_model_scale": 0.001,
+      "registration": {
+        "rotation": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "translation_mm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "status": "Vendor nominal flange-mounted display; installed side orientation and consumable not independently verified",
+        "evidence": "ITEM AXIS6 Rz(-90 deg), followed by proper Yaskawa-to-project rotation (z,-y,x), gives native (z,x,y); native flange plane Z=0; no TCP fit or extra scale"
+      },
+      "groups": [
+        {
+          "array_key": "22d_shock_mnt_brake_shell_00",
+          "shell": 0,
+          "triangles": 456,
+          "source_triangles": 456,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -37.37000274658203,
+              -37.5760498046875,
+              29.28425407409668
+            ],
+            [
+              37.49734878540039,
+              37.576805114746094,
+              72.27000427246094
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_brake_shell_01",
+          "shell": 1,
+          "triangles": 202,
+          "source_triangles": 202,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -22.590892791748047,
+              -22.5813045501709,
+              60.13996505737305
+            ],
+            [
+              22.533477783203125,
+              22.66267204284668,
+              72.27000427246094
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_brake_shell_02",
+          "shell": 2,
+          "triangles": 2944,
+          "source_triangles": 2954,
+          "removed_subthreshold_triangles": 10,
+          "removed_area_mm2": 5.7228171582001525e-06,
+          "bounds_native_mm": [
+            [
+              -6.860000133514404,
+              -52.42658233642578,
+              134.27000427246094
+            ],
+            [
+              6.822420120239258,
+              6.860000133514404,
+              372.8017272949219
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_brake_shell_03",
+          "shell": 3,
+          "triangles": 3622,
+          "source_triangles": 3626,
+          "removed_subthreshold_triangles": 4,
+          "removed_area_mm2": 2.052610697907887e-06,
+          "bounds_native_mm": [
+            [
+              -39.196231842041016,
+              -39.24998474121094,
+              71.54360961914062
+            ],
+            [
+              39.19623565673828,
+              39.35466003417969,
+              306.01806640625
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_brake_shell_04",
+          "shell": 4,
+          "triangles": 2896,
+          "source_triangles": 2896,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -11.992690086364746,
+              -34.17302703857422,
+              122.04065704345703
+            ],
+            [
+              11.992690086364746,
+              10.79569149017334,
+              310.99420166015625
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_brake_shell_05",
+          "shell": 5,
+          "triangles": 196,
+          "source_triangles": 196,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -9.495806694030762,
+              -48.034889221191406,
+              315.05206298828125
+            ],
+            [
+              9.495806694030762,
+              -19.253278732299805,
+              349.95556640625
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_brake_shell_06",
+          "shell": 6,
+          "triangles": 5195,
+          "source_triangles": 5204,
+          "removed_subthreshold_triangles": 9,
+          "removed_area_mm2": 4.238216186717322e-06,
+          "bounds_native_mm": [
+            [
+              -11.988541603088379,
+              -33.82728576660156,
+              91.61709594726562
+            ],
+            [
+              11.987274169921875,
+              57.80842590332031,
+              317.90289306640625
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_brake_shell_07",
+          "shell": 7,
+          "triangles": 128,
+          "source_triangles": 128,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -9.119606018066406,
+              -36.51012420654297,
+              311.4591064453125
+            ],
+            [
+              9.24209976196289,
+              -17.96733283996582,
+              322.05419921875
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_brake_shell_08",
+          "shell": 8,
+          "triangles": 12298,
+          "source_triangles": 12322,
+          "removed_subthreshold_triangles": 24,
+          "removed_area_mm2": 1.1318752701970738e-05,
+          "bounds_native_mm": [
+            [
+              -13.94299030303955,
+              -57.52880096435547,
+              120.27000427246094
+            ],
+            [
+              13.99771785736084,
+              13.990873336791992,
+              372.78802490234375
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_brake_shell_09",
+          "shell": 9,
+          "triangles": 26216,
+          "source_triangles": 26225,
+          "removed_subthreshold_triangles": 9,
+          "removed_area_mm2": 3.6668055566556992e-06,
+          "bounds_native_mm": [
+            [
+              -42.71065902709961,
+              -42.768096923828125,
+              0.0
+            ],
+            [
+              42.63119888305664,
+              42.742279052734375,
+              187.79000854492188
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_brake_shell_10",
+          "shell": 10,
+          "triangles": 4060,
+          "source_triangles": 4079,
+          "removed_subthreshold_triangles": 19,
+          "removed_area_mm2": 7.245046348157858e-06,
+          "bounds_native_mm": [
+            [
+              -33.098533630371094,
+              -27.959148406982422,
+              52.83892059326172
+            ],
+            [
+              33.098533630371094,
+              27.973649978637695,
+              58.5
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_brake_shell_11",
+          "shell": 11,
+          "triangles": 12995,
+          "source_triangles": 12998,
+          "removed_subthreshold_triangles": 3,
+          "removed_area_mm2": 1.4401582841641906e-06,
+          "bounds_native_mm": [
+            [
+              -38.20142364501953,
+              -38.204261779785156,
+              52.77998352050781
+            ],
+            [
+              38.24842071533203,
+              38.20829772949219,
+              72.27000427246094
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_brake_shell_12",
+          "shell": 12,
+          "triangles": 376,
+          "source_triangles": 376,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -5.000430583953857,
+              30.080947875976562,
+              108.94532775878906
+            ],
+            [
+              5.000431060791016,
+              39.928619384765625,
+              121.21851348876953
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_brake_shell_13",
+          "shell": 13,
+          "triangles": 12231,
+          "source_triangles": 12441,
+          "removed_subthreshold_triangles": 210,
+          "removed_area_mm2": 3.0598394992961164e-05,
+          "bounds_native_mm": [
+            [
+              -34.785491943359375,
+              -34.82867431640625,
+              52.13568115234375
+            ],
+            [
+              34.82867431640625,
+              34.7256965637207,
+              55.5
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_brake_shell_14",
+          "shell": 14,
+          "triangles": 63698,
+          "source_triangles": 63753,
+          "removed_subthreshold_triangles": 55,
+          "removed_area_mm2": 2.5769623055791666e-05,
+          "bounds_native_mm": [
+            [
+              -38.15483856201172,
+              -38.306270599365234,
+              29.284130096435547
+            ],
+            [
+              38.18012619018555,
+              38.24720764160156,
+              72.27000427246094
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        }
+      ],
+      "bounds_native_mm": [
+        [
+          -42.71065902709961,
+          -57.52880096435547,
+          0.0
+        ],
+        [
+          42.63119888305664,
+          57.80842590332031,
+          372.8017272949219
+        ]
+      ],
+      "triangles": 147513,
+      "source_triangles": 147856,
+      "removed_subthreshold_triangles": 343,
+      "removed_area_mm2": 9.205242498252667e-05,
+      "notes": [
+        "Display-only vendor MotoSim HSF tessellation, not a BRep or a collision/calibration source.",
+        "Every supported face is already a source triangle; no concave polygons, polygon holes, decimation or fan triangulation used.",
+        "All geometric shells retained, including internal surfaces; empirically decoded HSF materials and full segment tree remain unsupported.",
+        "Header and decoded bounds match independently in mm. ITEM SCALE=0.001 converts these mm to MotoSim metres and must not be applied again.",
+        "Native mounting flange is Z=0. Non-brake locating pilots extend to Z=-4.5; bounding-box minimum is not a seating plane.",
+        "Vendor TOOL_DATA is nominal metadata only; installed controller TOOL0 remains authoritative."
+      ]
+    },
+    "22d_shock_mnt": {
+      "name": "22D-Shock_Mnt_Yaskawa_Torch",
+      "source_member": "Yaskawa Torches/22D-Shock_Mnt_Yaskawa_Torch/Yaskawa_Torch-Shock-22DEG.hsf",
+      "source_sha256": "952b66d8331b275db10838400ea37aa82d4567deed88992cdc7ff944dd3fb9ac",
+      "source_item_member": "Yaskawa Torches/22D-Shock_Mnt_Yaskawa_Torch/ITEM.ini",
+      "source_item_sha256": "74f085536104bbfd00a0bb89f3e4e5d09787d6ac118847fd11f577fa5a6ade6f",
+      "tool_data_yaskawa": [
+        -56.832,
+        0.0,
+        371.176,
+        0.0,
+        -22.0,
+        0.0
+      ],
+      "source_model_axis6": [
+        0.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        -90.0
+      ],
+      "source_model_scale": 0.001,
+      "registration": {
+        "rotation": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "translation_mm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "status": "Vendor nominal flange-mounted display; installed side orientation and consumable not independently verified",
+        "evidence": "ITEM AXIS6 Rz(-90 deg), followed by proper Yaskawa-to-project rotation (z,-y,x), gives native (z,x,y); native flange plane Z=0; no TCP fit or extra scale"
+      },
+      "groups": [
+        {
+          "array_key": "22d_shock_mnt_shell_00",
+          "shell": 0,
+          "triangles": 101,
+          "source_triangles": 101,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -22.533275604248047,
+              -22.561941146850586,
+              52.040000915527344
+            ],
+            [
+              22.590682983398438,
+              22.581092834472656,
+              63.540000915527344
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_shell_01",
+          "shell": 1,
+          "triangles": 856,
+          "source_triangles": 856,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -11.988541603088379,
+              -33.82728576660156,
+              130.54000854492188
+            ],
+            [
+              11.987274169921875,
+              11.999991416931152,
+              299.17291259765625
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_shell_02",
+          "shell": 2,
+          "triangles": 124,
+          "source_triangles": 125,
+          "removed_subthreshold_triangles": 1,
+          "removed_area_mm2": 7.313819878618233e-07,
+          "bounds_native_mm": [
+            [
+              -29.06356430053711,
+              -9.92255687713623,
+              63.53999710083008
+            ],
+            [
+              29.06356430053711,
+              9.988114356994629,
+              73.53999328613281
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_shell_03",
+          "shell": 3,
+          "triangles": 247,
+          "source_triangles": 249,
+          "removed_subthreshold_triangles": 2,
+          "removed_area_mm2": 2.987253537867218e-07,
+          "bounds_native_mm": [
+            [
+              -29.06356430053711,
+              -28.672088623046875,
+              63.53999710083008
+            ],
+            [
+              29.06356430053711,
+              28.729997634887695,
+              73.53999328613281
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_shell_04",
+          "shell": 4,
+          "triangles": 210,
+          "source_triangles": 210,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -25.483566284179688,
+              -21.68397331237793,
+              63.53999710083008
+            ],
+            [
+              25.483566284179688,
+              21.741884231567383,
+              73.53999328613281
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_shell_05",
+          "shell": 5,
+          "triangles": 2870,
+          "source_triangles": 2870,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -39.25,
+              -39.25,
+              63.53999710083008
+            ],
+            [
+              39.25,
+              39.25,
+              287.2880859375
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_shell_06",
+          "shell": 6,
+          "triangles": 2945,
+          "source_triangles": 2954,
+          "removed_subthreshold_triangles": 9,
+          "removed_area_mm2": 4.7971381251887786e-06,
+          "bounds_native_mm": [
+            [
+              -6.860000133514404,
+              -52.42658233642578,
+              115.54000854492188
+            ],
+            [
+              6.822420120239258,
+              6.860000133514404,
+              354.07171630859375
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_shell_07",
+          "shell": 7,
+          "triangles": 196,
+          "source_triangles": 196,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -9.460590362548828,
+              -48.067543029785156,
+              296.308837890625
+            ],
+            [
+              9.460590362548828,
+              -19.220626831054688,
+              331.2387390136719
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_shell_08",
+          "shell": 8,
+          "triangles": 128,
+          "source_triangles": 128,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -9.119606018066406,
+              -36.51012420654297,
+              292.7291259765625
+            ],
+            [
+              9.24209976196289,
+              -17.96733283996582,
+              303.32421875
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_shell_09",
+          "shell": 9,
+          "triangles": 16719,
+          "source_triangles": 16758,
+          "removed_subthreshold_triangles": 39,
+          "removed_area_mm2": 1.6716980327112518e-05,
+          "bounds_native_mm": [
+            [
+              -32.10488510131836,
+              -57.493247985839844,
+              63.53999710083008
+            ],
+            [
+              31.986572265625,
+              32.150001525878906,
+              354.06256103515625
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_shell_10",
+          "shell": 10,
+          "triangles": 2026,
+          "source_triangles": 2040,
+          "removed_subthreshold_triangles": 14,
+          "removed_area_mm2": 6.756562426417731e-06,
+          "bounds_native_mm": [
+            [
+              -33.09839630126953,
+              -27.952634811401367,
+              44.77000045776367
+            ],
+            [
+              33.09839630126953,
+              27.952634811401367,
+              49.77000045776367
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_shell_11",
+          "shell": 11,
+          "triangles": 13959,
+          "source_triangles": 13967,
+          "removed_subthreshold_triangles": 8,
+          "removed_area_mm2": 3.7739267754954933e-06,
+          "bounds_native_mm": [
+            [
+              -42.63117218017578,
+              -42.69475555419922,
+              -4.5
+            ],
+            [
+              42.71065902709961,
+              42.678855895996094,
+              169.05999755859375
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_shell_12",
+          "shell": 12,
+          "triangles": 2245,
+          "source_triangles": 2252,
+          "removed_subthreshold_triangles": 7,
+          "removed_area_mm2": 4.27785264212055e-06,
+          "bounds_native_mm": [
+            [
+              -26.0,
+              -25.961868286132812,
+              125.93999481201172
+            ],
+            [
+              26.0,
+              25.961868286132812,
+              150.69000244140625
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_shell_13",
+          "shell": 13,
+          "triangles": 6492,
+          "source_triangles": 6497,
+          "removed_subthreshold_triangles": 5,
+          "removed_area_mm2": 7.44920859922504e-07,
+          "bounds_native_mm": [
+            [
+              -38.2484130859375,
+              -38.146728515625,
+              44.77000045776367
+            ],
+            [
+              38.20140075683594,
+              38.204280853271484,
+              63.540000915527344
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_shell_14",
+          "shell": 14,
+          "triangles": 36794,
+          "source_triangles": 37022,
+          "removed_subthreshold_triangles": 228,
+          "removed_area_mm2": 0.00010507923998572013,
+          "bounds_native_mm": [
+            [
+              -33.16301345825195,
+              -34.17302703857422,
+              64.74073028564453
+            ],
+            [
+              33.16365051269531,
+              37.20000076293945,
+              292.2641906738281
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_shell_15",
+          "shell": 15,
+          "triangles": 6084,
+          "source_triangles": 6215,
+          "removed_subthreshold_triangles": 131,
+          "removed_area_mm2": 1.3488428349492063e-05,
+          "bounds_native_mm": [
+            [
+              -34.82859802246094,
+              -34.72197723388672,
+              44.048072814941406
+            ],
+            [
+              34.785404205322266,
+              34.82859802246094,
+              46.769996643066406
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "22d_shock_mnt_shell_16",
+          "shell": 16,
+          "triangles": 31843,
+          "source_triangles": 31874,
+          "removed_subthreshold_triangles": 31,
+          "removed_area_mm2": 1.2567115770760295e-05,
+          "bounds_native_mm": [
+            [
+              -38.18009948730469,
+              -38.24720001220703,
+              21.270000457763672
+            ],
+            [
+              38.154808044433594,
+              38.2317008972168,
+              63.540000915527344
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        }
+      ],
+      "bounds_native_mm": [
+        [
+          -42.63117218017578,
+          -57.493247985839844,
+          -4.5
+        ],
+        [
+          42.71065902709961,
+          42.678855895996094,
+          354.07171630859375
+        ]
+      ],
+      "triangles": 123839,
+      "source_triangles": 124314,
+      "removed_subthreshold_triangles": 475,
+      "removed_area_mm2": 0.0001692322726038786,
+      "notes": [
+        "Display-only vendor MotoSim HSF tessellation, not a BRep or a collision/calibration source.",
+        "Every supported face is already a source triangle; no concave polygons, polygon holes, decimation or fan triangulation used.",
+        "All geometric shells retained, including internal surfaces; empirically decoded HSF materials and full segment tree remain unsupported.",
+        "Header and decoded bounds match independently in mm. ITEM SCALE=0.001 converts these mm to MotoSim metres and must not be applied again.",
+        "Native mounting flange is Z=0. Non-brake locating pilots extend to Z=-4.5; bounding-box minimum is not a seating plane.",
+        "Vendor TOOL_DATA is nominal metadata only; installed controller TOOL0 remains authoritative."
+      ]
+    },
+    "45d_hard_mnt_brake": {
+      "name": "45D-Hard_Mnt-Brake_Yaskawa_Torch",
+      "source_member": "Yaskawa Torches/45D-Hard_Mnt-Brake_Yaskawa_Torch/Yaskawa_Torch-Hard-Brake-45DEG.hsf",
+      "source_sha256": "d33a3761ac88ae3ffa183466a87789d69de087698dd2c8558a30fe797576cc47",
+      "source_item_member": "Yaskawa Torches/45D-Hard_Mnt-Brake_Yaskawa_Torch/ITEM.ini",
+      "source_item_sha256": "d9d82ed9be10e920972d4e30d983d9c29c4092444e9b2fe05cce185ac48f1ae1",
+      "tool_data_yaskawa": [
+        -112.537,
+        0.0,
+        325.68,
+        0.0,
+        -45.0,
+        0.0
+      ],
+      "source_model_axis6": [
+        0.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        -90.0
+      ],
+      "source_model_scale": 0.001,
+      "registration": {
+        "rotation": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "translation_mm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "status": "Vendor nominal flange-mounted display; installed side orientation and consumable not independently verified",
+        "evidence": "ITEM AXIS6 Rz(-90 deg), followed by proper Yaskawa-to-project rotation (z,-y,x), gives native (z,x,y); native flange plane Z=0; no TCP fit or extra scale"
+      },
+      "groups": [
+        {
+          "array_key": "45d_hard_mnt_brake_shell_00",
+          "shell": 0,
+          "triangles": 1632,
+          "source_triangles": 1632,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -11.989673614501953,
+              -57.77805709838867,
+              79.75335693359375
+            ],
+            [
+              11.876982688903809,
+              11.219952583312988,
+              270.1748352050781
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_hard_mnt_brake_shell_01",
+          "shell": 1,
+          "triangles": 3083,
+          "source_triangles": 3086,
+          "removed_subthreshold_triangles": 3,
+          "removed_area_mm2": 1.4468660323624468e-06,
+          "bounds_native_mm": [
+            [
+              -39.19620895385742,
+              -52.49612808227539,
+              29.778594970703125
+            ],
+            [
+              39.19621276855469,
+              39.35466003417969,
+              264.81451416015625
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_hard_mnt_brake_shell_02",
+          "shell": 2,
+          "triangles": 3332,
+          "source_triangles": 3338,
+          "removed_subthreshold_triangles": 6,
+          "removed_area_mm2": 2.884650502351503e-06,
+          "bounds_native_mm": [
+            [
+              -11.996569633483887,
+              -61.18190383911133,
+              49.852081298828125
+            ],
+            [
+              11.973993301391602,
+              57.80841064453125,
+              273.8741149902344
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_hard_mnt_brake_shell_03",
+          "shell": 3,
+          "triangles": 3131,
+          "source_triangles": 3141,
+          "removed_subthreshold_triangles": 10,
+          "removed_area_mm2": 5.178667533370787e-06,
+          "bounds_native_mm": [
+            [
+              -6.860000133514404,
+              -100.56849670410156,
+              91.96678161621094
+            ],
+            [
+              6.8307366371154785,
+              7.729668617248535,
+              313.67913818359375
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_hard_mnt_brake_shell_04",
+          "shell": 4,
+          "triangles": 196,
+          "source_triangles": 196,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -9.49927806854248,
+              -86.20072937011719,
+              264.42034912109375
+            ],
+            [
+              9.49927806854248,
+              -51.67750549316406,
+              299.034423828125
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_hard_mnt_brake_shell_05",
+          "shell": 5,
+          "triangles": 3178,
+          "source_triangles": 3181,
+          "removed_subthreshold_triangles": 3,
+          "removed_area_mm2": 1.870771050209287e-06,
+          "bounds_native_mm": [
+            [
+              -40.0,
+              -39.82936477661133,
+              0.0
+            ],
+            [
+              40.0,
+              39.999725341796875,
+              145.62030029296875
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_hard_mnt_brake_shell_06",
+          "shell": 6,
+          "triangles": 128,
+          "source_triangles": 128,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -8.995996475219727,
+              -64.77671813964844,
+              261.90557861328125
+            ],
+            [
+              8.855216026306152,
+              -49.23918533325195,
+              277.32952880859375
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_hard_mnt_brake_shell_07",
+          "shell": 7,
+          "triangles": 12176,
+          "source_triangles": 12186,
+          "removed_subthreshold_triangles": 10,
+          "removed_area_mm2": 3.099116054706553e-06,
+          "bounds_native_mm": [
+            [
+              -13.923307418823242,
+              -103.57633209228516,
+              77.95130157470703
+            ],
+            [
+              13.923307418823242,
+              14.763140678405762,
+              316.6163635253906
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_hard_mnt_brake_shell_08",
+          "shell": 8,
+          "triangles": 188,
+          "source_triangles": 188,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -5.0,
+              30.403274536132812,
+              67.18031311035156
+            ],
+            [
+              4.999999046325684,
+              39.9285888671875,
+              78.736083984375
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        }
+      ],
+      "bounds_native_mm": [
+        [
+          -40.0,
+          -103.57633209228516,
+          0.0
+        ],
+        [
+          40.0,
+          57.80841064453125,
+          316.6163635253906
+        ]
+      ],
+      "triangles": 27044,
+      "source_triangles": 27076,
+      "removed_subthreshold_triangles": 32,
+      "removed_area_mm2": 1.4480071173000579e-05,
+      "notes": [
+        "Display-only vendor MotoSim HSF tessellation, not a BRep or a collision/calibration source.",
+        "Every supported face is already a source triangle; no concave polygons, polygon holes, decimation or fan triangulation used.",
+        "All geometric shells retained, including internal surfaces; empirically decoded HSF materials and full segment tree remain unsupported.",
+        "Header and decoded bounds match independently in mm. ITEM SCALE=0.001 converts these mm to MotoSim metres and must not be applied again.",
+        "Native mounting flange is Z=0. Non-brake locating pilots extend to Z=-4.5; bounding-box minimum is not a seating plane.",
+        "Vendor TOOL_DATA is nominal metadata only; installed controller TOOL0 remains authoritative."
+      ]
+    },
+    "45d_hard_mnt": {
+      "name": "45D-Hard_Mnt_Yaskawa_Torch",
+      "source_member": "Yaskawa Torches/45D-Hard_Mnt_Yaskawa_Torch/Yaskawa_Torch-Hard-45DEG.hsf",
+      "source_sha256": "fea04c51a9f869723370d7ca4c0ddd47ee135c81506814e0f47444642be53ab2",
+      "source_item_member": "Yaskawa Torches/45D-Hard_Mnt_Yaskawa_Torch/ITEM.ini",
+      "source_item_sha256": "253b9b89d9316e6c05c3ba649136b17fdececdb977ca0e2282680d4f125a100b",
+      "tool_data_yaskawa": [
+        -114.268,
+        0.0,
+        306.366,
+        0.0,
+        -45.0,
+        0.0
+      ],
+      "source_model_axis6": [
+        0.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        -90.0
+      ],
+      "source_model_scale": 0.001,
+      "registration": {
+        "rotation": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "translation_mm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "status": "Vendor nominal flange-mounted display; installed side orientation and consumable not independently verified",
+        "evidence": "ITEM AXIS6 Rz(-90 deg), followed by proper Yaskawa-to-project rotation (z,-y,x), gives native (z,x,y); native flange plane Z=0; no TCP fit or extra scale"
+      },
+      "groups": [
+        {
+          "array_key": "45d_hard_mnt_shell_00",
+          "shell": 0,
+          "triangles": 124,
+          "source_triangles": 126,
+          "removed_subthreshold_triangles": 2,
+          "removed_area_mm2": 7.55350811232347e-07,
+          "bounds_native_mm": [
+            [
+              -29.06356430053711,
+              -9.92255687713623,
+              21.26999855041504
+            ],
+            [
+              29.06356430053711,
+              9.988114356994629,
+              31.26999855041504
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_hard_mnt_shell_01",
+          "shell": 1,
+          "triangles": 1164,
+          "source_triangles": 1164,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -11.996569633483887,
+              -62.627323150634766,
+              88.27000427246094
+            ],
+            [
+              11.973993301391602,
+              11.99736213684082,
+              254.84603881835938
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_hard_mnt_shell_02",
+          "shell": 2,
+          "triangles": 247,
+          "source_triangles": 250,
+          "removed_subthreshold_triangles": 3,
+          "removed_area_mm2": 3.7054542190162465e-07,
+          "bounds_native_mm": [
+            [
+              -29.06356430053711,
+              -28.672088623046875,
+              21.26999855041504
+            ],
+            [
+              29.06356430053711,
+              28.729997634887695,
+              31.26999855041504
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_hard_mnt_shell_03",
+          "shell": 3,
+          "triangles": 210,
+          "source_triangles": 210,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -25.483566284179688,
+              -21.68397331237793,
+              21.26999855041504
+            ],
+            [
+              25.483566284179688,
+              21.741884231567383,
+              31.26999855041504
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_hard_mnt_shell_04",
+          "shell": 4,
+          "triangles": 3133,
+          "source_triangles": 3142,
+          "removed_subthreshold_triangles": 9,
+          "removed_area_mm2": 3.569727888815268e-06,
+          "bounds_native_mm": [
+            [
+              -6.860000133514404,
+              -102.29788208007812,
+              73.27000427246094
+            ],
+            [
+              6.8307366371154785,
+              6.822420120239258,
+              294.3922119140625
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_hard_mnt_shell_05",
+          "shell": 5,
+          "triangles": 3370,
+          "source_triangles": 3374,
+          "removed_subthreshold_triangles": 4,
+          "removed_area_mm2": 1.8079934396263333e-06,
+          "bounds_native_mm": [
+            [
+              -39.25,
+              -53.87752151489258,
+              21.26999855041504
+            ],
+            [
+              39.25,
+              39.25,
+              245.84051513671875
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_hard_mnt_shell_06",
+          "shell": 6,
+          "triangles": 196,
+          "source_triangles": 196,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -9.460590362548828,
+              -87.815673828125,
+              245.26771545410156
+            ],
+            [
+              9.460590362548828,
+              -53.173377990722656,
+              279.9100036621094
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_hard_mnt_shell_07",
+          "shell": 7,
+          "triangles": 4045,
+          "source_triangles": 4048,
+          "removed_subthreshold_triangles": 3,
+          "removed_area_mm2": 2.0687930540468655e-06,
+          "bounds_native_mm": [
+            [
+              -40.0,
+              -39.959720611572266,
+              -4.5
+            ],
+            [
+              40.0,
+              39.959720611572266,
+              126.79000091552734
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_hard_mnt_shell_08",
+          "shell": 8,
+          "triangles": 128,
+          "source_triangles": 128,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -8.995996475219727,
+              -66.23405456542969,
+              242.80770874023438
+            ],
+            [
+              8.855216026306152,
+              -50.7530517578125,
+              258.2886962890625
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_hard_mnt_shell_09",
+          "shell": 9,
+          "triangles": 16584,
+          "source_triangles": 16627,
+          "removed_subthreshold_triangles": 43,
+          "removed_area_mm2": 1.8581622463633647e-05,
+          "bounds_native_mm": [
+            [
+              -32.10488510131836,
+              -105.23228454589844,
+              21.26999855041504
+            ],
+            [
+              31.986572265625,
+              32.150001525878906,
+              297.3619384765625
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_hard_mnt_shell_10",
+          "shell": 10,
+          "triangles": 2245,
+          "source_triangles": 2250,
+          "removed_subthreshold_triangles": 5,
+          "removed_area_mm2": 3.2191998997621596e-06,
+          "bounds_native_mm": [
+            [
+              -26.0,
+              -25.961868286132812,
+              83.66999816894531
+            ],
+            [
+              26.0,
+              25.961868286132812,
+              108.41999816894531
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_hard_mnt_shell_11",
+          "shell": 11,
+          "triangles": 35553,
+          "source_triangles": 35926,
+          "removed_subthreshold_triangles": 373,
+          "removed_area_mm2": 0.0001919755075878012,
+          "bounds_native_mm": [
+            [
+              -33.16301345825195,
+              -59.16982650756836,
+              22.470731735229492
+            ],
+            [
+              33.16365051269531,
+              37.20000076293945,
+              251.19918823242188
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        }
+      ],
+      "bounds_native_mm": [
+        [
+          -40.0,
+          -105.23228454589844,
+          -4.5
+        ],
+        [
+          40.0,
+          39.959720611572266,
+          297.3619384765625
+        ]
+      ],
+      "triangles": 66999,
+      "source_triangles": 67441,
+      "removed_subthreshold_triangles": 442,
+      "removed_area_mm2": 0.00022234874056681946,
+      "notes": [
+        "Display-only vendor MotoSim HSF tessellation, not a BRep or a collision/calibration source.",
+        "Every supported face is already a source triangle; no concave polygons, polygon holes, decimation or fan triangulation used.",
+        "All geometric shells retained, including internal surfaces; empirically decoded HSF materials and full segment tree remain unsupported.",
+        "Header and decoded bounds match independently in mm. ITEM SCALE=0.001 converts these mm to MotoSim metres and must not be applied again.",
+        "Native mounting flange is Z=0. Non-brake locating pilots extend to Z=-4.5; bounding-box minimum is not a seating plane.",
+        "Vendor TOOL_DATA is nominal metadata only; installed controller TOOL0 remains authoritative."
+      ]
+    },
+    "45d_shock_mnt_brake": {
+      "name": "45D-Shock_Mnt-Brake_Yaskawa_Torch",
+      "source_member": "Yaskawa Torches/45D-Shock_Mnt-Brake_Yaskawa_Torch/Yaskawa_Torch-Shock-Brake-45DEG.hsf",
+      "source_sha256": "f0c3e5562a7b4c57b49a125043d4a371f39435fad7bd92061c0f42a1d75760e0",
+      "source_item_member": "Yaskawa Torches/45D-Shock_Mnt-Brake_Yaskawa_Torch/ITEM.ini",
+      "source_item_sha256": "e85f7fe514814b860074597ece3318cdc38269a1da63595c183a295de49bf623",
+      "tool_data_yaskawa": [
+        -114.271,
+        -0.003,
+        367.364,
+        0.0,
+        -45.0,
+        0.0
+      ],
+      "source_model_axis6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -90.0
+      ],
+      "source_model_scale": 0.001,
+      "registration": {
+        "rotation": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "translation_mm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "status": "Vendor nominal flange-mounted display; installed side orientation and consumable not independently verified",
+        "evidence": "ITEM AXIS6 Rz(-90 deg), followed by proper Yaskawa-to-project rotation (z,-y,x), gives native (z,x,y); native flange plane Z=0; no TCP fit or extra scale"
+      },
+      "groups": [
+        {
+          "array_key": "45d_shock_mnt_brake_shell_00",
+          "shell": 0,
+          "triangles": 456,
+          "source_triangles": 456,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -37.37000274658203,
+              -37.5760498046875,
+              29.28425407409668
+            ],
+            [
+              37.49734878540039,
+              37.576805114746094,
+              72.27000427246094
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_brake_shell_01",
+          "shell": 1,
+          "triangles": 1772,
+          "source_triangles": 1772,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -11.989673614501953,
+              -59.16982650756836,
+              122.07601928710938
+            ],
+            [
+              11.876982688903809,
+              10.823236465454102,
+              312.1991882324219
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_brake_shell_02",
+          "shell": 2,
+          "triangles": 202,
+          "source_triangles": 202,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -22.590892791748047,
+              -22.5813045501709,
+              60.13996505737305
+            ],
+            [
+              22.533477783203125,
+              22.66267204284668,
+              72.27000427246094
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_brake_shell_03",
+          "shell": 3,
+          "triangles": 3133,
+          "source_triangles": 3142,
+          "removed_subthreshold_triangles": 9,
+          "removed_area_mm2": 4.255003317034898e-06,
+          "bounds_native_mm": [
+            [
+              -6.860000133514404,
+              -102.28556060791016,
+              134.26998901367188
+            ],
+            [
+              6.8307366371154785,
+              6.822420120239258,
+              355.3798828125
+            ]
+          ],
+          "appearance": {
+            "color": "#b58059",
+            "metalness": 0.75,
+            "roughness": 0.3,
+            "source": "Copper inner tube/contact-tip presentation assumption; not decoded HSF material or an installed-consumable identification"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_brake_shell_04",
+          "shell": 4,
+          "triangles": 4124,
+          "source_triangles": 4130,
+          "removed_subthreshold_triangles": 6,
+          "removed_area_mm2": 3.180624647269394e-06,
+          "bounds_native_mm": [
+            [
+              -39.196231842041016,
+              -53.87752151489258,
+              71.54360961914062
+            ],
+            [
+              39.19623565673828,
+              39.35466003417969,
+              306.84051513671875
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_brake_shell_05",
+          "shell": 5,
+          "triangles": 196,
+          "source_triangles": 196,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -9.49927806854248,
+              -87.77914428710938,
+              306.3042297363281
+            ],
+            [
+              9.49927806854248,
+              -53.20991516113281,
+              340.87347412109375
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_brake_shell_06",
+          "shell": 6,
+          "triangles": 5504,
+          "source_triangles": 5512,
+          "removed_subthreshold_triangles": 8,
+          "removed_area_mm2": 3.974817383951322e-06,
+          "bounds_native_mm": [
+            [
+              -11.996569633483887,
+              -62.627323150634766,
+              91.61709594726562
+            ],
+            [
+              11.973993301391602,
+              57.80842590332031,
+              315.84600830078125
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_brake_shell_07",
+          "shell": 7,
+          "triangles": 128,
+          "source_triangles": 128,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -8.995996475219727,
+              -66.23405456542969,
+              303.80767822265625
+            ],
+            [
+              8.855216026306152,
+              -50.7530517578125,
+              319.2886962890625
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_brake_shell_08",
+          "shell": 8,
+          "triangles": 12181,
+          "source_triangles": 12190,
+          "removed_subthreshold_triangles": 9,
+          "removed_area_mm2": 2.722390559510842e-06,
+          "bounds_native_mm": [
+            [
+              -13.923307418823242,
+              -105.25386047363281,
+              120.26998901367188
+            ],
+            [
+              13.923307418823242,
+              14.0,
+              358.3569030761719
+            ]
+          ],
+          "appearance": {
+            "color": "#b58a43",
+            "metalness": 0.78,
+            "roughness": 0.28,
+            "source": "Brass nozzle/coupling presentation, visually matched to supplied item.bmp; not decoded HSF material"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_brake_shell_09",
+          "shell": 9,
+          "triangles": 26216,
+          "source_triangles": 26225,
+          "removed_subthreshold_triangles": 9,
+          "removed_area_mm2": 3.6668055566556992e-06,
+          "bounds_native_mm": [
+            [
+              -42.71065902709961,
+              -42.768096923828125,
+              0.0
+            ],
+            [
+              42.63119888305664,
+              42.742279052734375,
+              187.79000854492188
+            ]
+          ],
+          "appearance": {
+            "color": "#252a30",
+            "metalness": 0.12,
+            "roughness": 0.4,
+            "source": "Charcoal shock housing presentation, visually matched to supplied item.bmp; not decoded HSF material"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_brake_shell_10",
+          "shell": 10,
+          "triangles": 4060,
+          "source_triangles": 4079,
+          "removed_subthreshold_triangles": 19,
+          "removed_area_mm2": 7.245046348157858e-06,
+          "bounds_native_mm": [
+            [
+              -33.098533630371094,
+              -27.959148406982422,
+              52.83892059326172
+            ],
+            [
+              33.098533630371094,
+              27.973649978637695,
+              58.5
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_brake_shell_11",
+          "shell": 11,
+          "triangles": 12995,
+          "source_triangles": 12998,
+          "removed_subthreshold_triangles": 3,
+          "removed_area_mm2": 1.4401582841641906e-06,
+          "bounds_native_mm": [
+            [
+              -38.20142364501953,
+              -38.204261779785156,
+              52.77998352050781
+            ],
+            [
+              38.24842071533203,
+              38.20829772949219,
+              72.27000427246094
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_brake_shell_12",
+          "shell": 12,
+          "triangles": 376,
+          "source_triangles": 376,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -5.000430583953857,
+              30.080947875976562,
+              108.94532775878906
+            ],
+            [
+              5.000431060791016,
+              39.928619384765625,
+              121.21851348876953
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_brake_shell_13",
+          "shell": 13,
+          "triangles": 12231,
+          "source_triangles": 12441,
+          "removed_subthreshold_triangles": 210,
+          "removed_area_mm2": 3.0598394992961164e-05,
+          "bounds_native_mm": [
+            [
+              -34.785491943359375,
+              -34.82867431640625,
+              52.13568115234375
+            ],
+            [
+              34.82867431640625,
+              34.7256965637207,
+              55.5
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_brake_shell_14",
+          "shell": 14,
+          "triangles": 63698,
+          "source_triangles": 63753,
+          "removed_subthreshold_triangles": 55,
+          "removed_area_mm2": 2.5769623055791666e-05,
+          "bounds_native_mm": [
+            [
+              -38.15483856201172,
+              -38.306270599365234,
+              29.284130096435547
+            ],
+            [
+              38.18012619018555,
+              38.24720764160156,
+              72.27000427246094
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        }
+      ],
+      "bounds_native_mm": [
+        [
+          -42.71065902709961,
+          -105.25386047363281,
+          0.0
+        ],
+        [
+          42.63119888305664,
+          57.80842590332031,
+          358.3569030761719
+        ]
+      ],
+      "triangles": 147272,
+      "source_triangles": 147600,
+      "removed_subthreshold_triangles": 328,
+      "removed_area_mm2": 8.285286414549703e-05,
+      "notes": [
+        "Display-only vendor MotoSim HSF tessellation, not a BRep or a collision/calibration source.",
+        "Every supported face is already a source triangle; no concave polygons, polygon holes, decimation or fan triangulation used.",
+        "All geometric shells retained, including internal surfaces; empirically decoded HSF materials and full segment tree remain unsupported.",
+        "Header and decoded bounds match independently in mm. ITEM SCALE=0.001 converts these mm to MotoSim metres and must not be applied again.",
+        "Native mounting flange is Z=0. Non-brake locating pilots extend to Z=-4.5; bounding-box minimum is not a seating plane.",
+        "Vendor TOOL_DATA is nominal metadata only; installed controller TOOL0 remains authoritative."
+      ]
+    },
+    "45d_shock_mnt": {
+      "name": "45D-Shock_Mnt_Yaskawa_Torch",
+      "source_member": "Yaskawa Torches/45D-Shock_Mnt_Yaskawa_Torch/Yaskawa_Torch-Shock-45DEG.hsf",
+      "source_sha256": "6dbe236a7877094e4faf17be22d57b6d0b8be845409bbc668608febc0ea33536",
+      "source_item_member": "Yaskawa Torches/45D-Shock_Mnt_Yaskawa_Torch/ITEM.ini",
+      "source_item_sha256": "f262fe382693c3b833d6a12f4c9ceb4afce61449a3ec9be7a84e000ab0c0562f",
+      "tool_data_yaskawa": [
+        -114.27,
+        0.0,
+        348.635,
+        0.0,
+        -45.0,
+        0.0
+      ],
+      "source_model_axis6": [
+        0.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        -90.0
+      ],
+      "source_model_scale": 0.001,
+      "registration": {
+        "rotation": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "translation_mm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "status": "Vendor nominal flange-mounted display; installed side orientation and consumable not independently verified",
+        "evidence": "ITEM AXIS6 Rz(-90 deg), followed by proper Yaskawa-to-project rotation (z,-y,x), gives native (z,x,y); native flange plane Z=0; no TCP fit or extra scale"
+      },
+      "groups": [
+        {
+          "array_key": "45d_shock_mnt_shell_00",
+          "shell": 0,
+          "triangles": 101,
+          "source_triangles": 101,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -22.533275604248047,
+              -22.561941146850586,
+              52.040000915527344
+            ],
+            [
+              22.590682983398438,
+              22.581092834472656,
+              63.540000915527344
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_shell_01",
+          "shell": 1,
+          "triangles": 124,
+          "source_triangles": 125,
+          "removed_subthreshold_triangles": 1,
+          "removed_area_mm2": 7.313819878618233e-07,
+          "bounds_native_mm": [
+            [
+              -29.06356430053711,
+              -9.92255687713623,
+              63.53999710083008
+            ],
+            [
+              29.06356430053711,
+              9.988114356994629,
+              73.53999328613281
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_shell_02",
+          "shell": 2,
+          "triangles": 1164,
+          "source_triangles": 1164,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -11.996569633483887,
+              -62.627323150634766,
+              130.5399932861328
+            ],
+            [
+              11.973993301391602,
+              11.99736213684082,
+              297.11602783203125
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_shell_03",
+          "shell": 3,
+          "triangles": 247,
+          "source_triangles": 249,
+          "removed_subthreshold_triangles": 2,
+          "removed_area_mm2": 2.987253537867218e-07,
+          "bounds_native_mm": [
+            [
+              -29.06356430053711,
+              -28.672088623046875,
+              63.53999710083008
+            ],
+            [
+              29.06356430053711,
+              28.729997634887695,
+              73.53999328613281
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_shell_04",
+          "shell": 4,
+          "triangles": 210,
+          "source_triangles": 210,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -25.483566284179688,
+              -21.68397331237793,
+              63.53999710083008
+            ],
+            [
+              25.483566284179688,
+              21.741884231567383,
+              73.53999328613281
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_shell_05",
+          "shell": 5,
+          "triangles": 3132,
+          "source_triangles": 3142,
+          "removed_subthreshold_triangles": 10,
+          "removed_area_mm2": 4.327974701011273e-06,
+          "bounds_native_mm": [
+            [
+              -6.860000133514404,
+              -102.29788208007812,
+              115.54000091552734
+            ],
+            [
+              6.8307366371154785,
+              6.822420120239258,
+              336.6622314453125
+            ]
+          ],
+          "appearance": {
+            "color": "#b58059",
+            "metalness": 0.75,
+            "roughness": 0.3,
+            "source": "Copper inner tube/contact-tip presentation assumption; not decoded HSF material or an installed-consumable identification"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_shell_06",
+          "shell": 6,
+          "triangles": 3371,
+          "source_triangles": 3374,
+          "removed_subthreshold_triangles": 3,
+          "removed_area_mm2": 1.3914127521275077e-06,
+          "bounds_native_mm": [
+            [
+              -39.25,
+              -53.87752151489258,
+              63.53999710083008
+            ],
+            [
+              39.25,
+              39.25,
+              288.1105041503906
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_shell_07",
+          "shell": 7,
+          "triangles": 196,
+          "source_triangles": 196,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -9.460590362548828,
+              -87.815673828125,
+              287.5377197265625
+            ],
+            [
+              9.460590362548828,
+              -53.173377990722656,
+              322.1800231933594
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_shell_08",
+          "shell": 8,
+          "triangles": 128,
+          "source_triangles": 128,
+          "removed_subthreshold_triangles": 0,
+          "removed_area_mm2": 0.0,
+          "bounds_native_mm": [
+            [
+              -8.995996475219727,
+              -66.23405456542969,
+              285.07769775390625
+            ],
+            [
+              8.855216026306152,
+              -50.7530517578125,
+              300.5586853027344
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_shell_09",
+          "shell": 9,
+          "triangles": 16584,
+          "source_triangles": 16625,
+          "removed_subthreshold_triangles": 41,
+          "removed_area_mm2": 1.8489995767398152e-05,
+          "bounds_native_mm": [
+            [
+              -32.10488510131836,
+              -105.23228454589844,
+              63.53999710083008
+            ],
+            [
+              31.986572265625,
+              32.150001525878906,
+              339.6319274902344
+            ]
+          ],
+          "appearance": {
+            "color": "#b58a43",
+            "metalness": 0.78,
+            "roughness": 0.28,
+            "source": "Brass nozzle/coupling presentation, visually matched to supplied item.bmp; not decoded HSF material"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_shell_10",
+          "shell": 10,
+          "triangles": 2026,
+          "source_triangles": 2040,
+          "removed_subthreshold_triangles": 14,
+          "removed_area_mm2": 6.756562426417732e-06,
+          "bounds_native_mm": [
+            [
+              -33.09839630126953,
+              -27.952634811401367,
+              44.77000045776367
+            ],
+            [
+              33.09839630126953,
+              27.952634811401367,
+              49.77000045776367
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_shell_11",
+          "shell": 11,
+          "triangles": 13959,
+          "source_triangles": 13967,
+          "removed_subthreshold_triangles": 8,
+          "removed_area_mm2": 3.7739267754954933e-06,
+          "bounds_native_mm": [
+            [
+              -42.63117218017578,
+              -42.69475555419922,
+              -4.5
+            ],
+            [
+              42.71065902709961,
+              42.678855895996094,
+              169.05999755859375
+            ]
+          ],
+          "appearance": {
+            "color": "#252a30",
+            "metalness": 0.12,
+            "roughness": 0.4,
+            "source": "Charcoal shock housing presentation, visually matched to supplied item.bmp; not decoded HSF material"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_shell_12",
+          "shell": 12,
+          "triangles": 2245,
+          "source_triangles": 2252,
+          "removed_subthreshold_triangles": 7,
+          "removed_area_mm2": 4.27785264212055e-06,
+          "bounds_native_mm": [
+            [
+              -26.0,
+              -25.961868286132812,
+              125.93999481201172
+            ],
+            [
+              26.0,
+              25.961868286132812,
+              150.69000244140625
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_shell_13",
+          "shell": 13,
+          "triangles": 6492,
+          "source_triangles": 6497,
+          "removed_subthreshold_triangles": 5,
+          "removed_area_mm2": 7.44920859922504e-07,
+          "bounds_native_mm": [
+            [
+              -38.2484130859375,
+              -38.146728515625,
+              44.77000045776367
+            ],
+            [
+              38.20140075683594,
+              38.204280853271484,
+              63.540000915527344
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_shell_14",
+          "shell": 14,
+          "triangles": 35670,
+          "source_triangles": 35898,
+          "removed_subthreshold_triangles": 228,
+          "removed_area_mm2": 0.00010507923998572013,
+          "bounds_native_mm": [
+            [
+              -33.16301345825195,
+              -59.16982650756836,
+              64.74073028564453
+            ],
+            [
+              33.16365051269531,
+              37.20000076293945,
+              293.46917724609375
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_shell_15",
+          "shell": 15,
+          "triangles": 6084,
+          "source_triangles": 6215,
+          "removed_subthreshold_triangles": 131,
+          "removed_area_mm2": 1.3488428349492063e-05,
+          "bounds_native_mm": [
+            [
+              -34.82859802246094,
+              -34.72197723388672,
+              44.048072814941406
+            ],
+            [
+              34.785404205322266,
+              34.82859802246094,
+              46.769996643066406
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        },
+        {
+          "array_key": "45d_shock_mnt_shell_16",
+          "shell": 16,
+          "triangles": 31843,
+          "source_triangles": 31874,
+          "removed_subthreshold_triangles": 31,
+          "removed_area_mm2": 1.2567115770760295e-05,
+          "bounds_native_mm": [
+            [
+              -38.18009948730469,
+              -38.24720001220703,
+              21.270000457763672
+            ],
+            [
+              38.154808044433594,
+              38.2317008972168,
+              63.540000915527344
+            ]
+          ],
+          "appearance": {
+            "color": "#8c949c",
+            "metalness": 0.72,
+            "roughness": 0.3,
+            "source": "Neutral presentation finish; HSF source materials are not decoded"
+          }
+        }
+      ],
+      "bounds_native_mm": [
+        [
+          -42.63117218017578,
+          -105.23228454589844,
+          -4.5
+        ],
+        [
+          42.71065902709961,
+          42.678855895996094,
+          339.6319274902344
+        ]
+      ],
+      "triangles": 123576,
+      "source_triangles": 124057,
+      "removed_subthreshold_triangles": 481,
+      "removed_area_mm2": 0.00017192753737211425,
+      "notes": [
+        "Display-only vendor MotoSim HSF tessellation, not a BRep or a collision/calibration source.",
+        "Every supported face is already a source triangle; no concave polygons, polygon holes, decimation or fan triangulation used.",
+        "All geometric shells retained, including internal surfaces; empirically decoded HSF materials and full segment tree remain unsupported.",
+        "Header and decoded bounds match independently in mm. ITEM SCALE=0.001 converts these mm to MotoSim metres and must not be applied again.",
+        "Native mounting flange is Z=0. Non-brake locating pilots extend to Z=-4.5; bounding-box minimum is not a seating plane.",
+        "Vendor TOOL_DATA is nominal metadata only; installed controller TOOL0 remains authoritative."
+      ]
+    }
+  }
+}

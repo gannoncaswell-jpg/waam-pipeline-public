@@ -1,0 +1,3 @@
+* text=auto eol=lf
+src/waam_pipeline/_vendor/* text eol=lf
+src/waam_pipeline/_vendor/three-r180.cjs -whitespace linguist-vendored=true

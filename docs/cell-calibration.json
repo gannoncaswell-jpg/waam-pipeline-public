@@ -1,0 +1,123 @@
+{
+  "platter_face_offset_mm": -18.957,
+  "training_block": {
+    "on_platter": false,
+    "length_mm": 250.0,
+    "width_mm": 150.0,
+    "height_mm": 40.0,
+    "along_plate_mm": 202.8
+  },
+  "measured_by": null,
+  "measured_date": "2026-09-03",
+  "measured_at_xy": [
+    1140.5,
+    -11.4
+  ],
+  "notes": "MEASURED 2026-09-03 by touch-off at 1/8\" stickout, single point: the raw touch put the work face at TCP z 140.493, i.e. offset -25.307 AT THAT STICKOUT (re-derived 2026-09-24 when TOOL_TCP's Y sign was corrected; it read 140.501 / -25.299 / -18.949 before). CORRECTED 2026-09-04 for the stickout the cell will actually weld at, 3/8\" = 9.525 mm (owner's decision): offset -18.957, TCP z 146.843. READ PLATTER_FACE_Z AS 'the TCP height at which the wire tip touches the work', NOT as the physical height of the platter face - the two differ by exactly the stickout, and offset_from_touch_off() folds the process correction into the geometry offset by design. The physical face is still at 140.493, so the collision scene now sits 6.35 mm ABOVE the real platter. That is the conservative direction and it is self-consistent, because every torch capsule is expressed relative to the same TOOL 0. If the welding stickout changes, re-derive with offset_from_touch_off() - never edit the offset by hand. The pendant dump's station calibration supersedes this file.",
+  "touch_off": {
+    "pulses_SLURBT": [
+      -1691,
+      33350,
+      -49764,
+      6597,
+      14034,
+      -2639
+    ],
+    "surface_touched": "bare platter work face",
+    "substrate_mm": 0.0,
+    "derived_offset_mm": -18.957,
+    "single_point": true,
+    "touch_stickout_mm": 3.175,
+    "weld_stickout_mm": 9.525
+  },
+  "fixtures": {
+    "platter_9pt_2026-09-19": {
+      "touch_pulses": [
+        [
+          -20184,
+          16327,
+          -76687,
+          52,
+          21056,
+          -14
+        ],
+        [
+          -18308,
+          25640,
+          -62625,
+          51,
+          18385,
+          -17
+        ],
+        [
+          -16748,
+          34791,
+          -47689,
+          56,
+          14989,
+          -21
+        ],
+        [
+          -12555,
+          33827,
+          -49365,
+          55,
+          15417,
+          -19
+        ],
+        [
+          -13744,
+          24573,
+          -64344,
+          49,
+          18764,
+          -16
+        ],
+        [
+          -15175,
+          15172,
+          -78507,
+          52,
+          21442,
+          -14
+        ],
+        [
+          -10049,
+          14328,
+          -79800,
+          52,
+          21693,
+          -15
+        ],
+        [
+          -9089,
+          24007,
+          -65605,
+          50,
+          19208,
+          -15
+        ],
+        [
+          -8298,
+          33251,
+          -50575,
+          55,
+          15820,
+          -19
+        ]
+      ],
+      "substrate_mm": 0.0,
+      "stickout_correction_mm": 0.0,
+      "_fitted": {
+        "tilt_deg": 0.888,
+        "residual_mm": 0.889,
+        "centroid_mm": [
+          1039.93,
+          -175.63,
+          143.8
+        ]
+      }
+    }
+  },
+  "active_fixture": null
+}

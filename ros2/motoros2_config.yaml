@@ -1,0 +1,21 @@
+---
+
+agent_ip_address: "192.168.255.50"      # FILL IN: the Agent PC's address
+agent_port_number: 8888
+
+ros_domain_id: 0
+node_name: "motoros2_lc50s"
+node_namespace: ""
+
+joint_names:
+- [joint_1_s, joint_2_l, joint_3_u, joint_4_r, joint_5_b, joint_6_t]
+
+stop_motion_on_disconnect: true
+
+publish_tf: true
+namespace_tf: true
+
+sync_timeclock_with_agent: true
+
+logging:
+  log_to_stdout: false

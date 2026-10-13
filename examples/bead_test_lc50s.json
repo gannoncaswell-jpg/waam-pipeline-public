@@ -1,0 +1,33 @@
+{
+  "name": "LC-BEAD-DRAFT",
+  "speeds_mm_min": [150, 200, 250],
+  "repeats": 3,
+  "length_mm": 100,
+  "pitch_mm": 60,
+  "coupon_length_mm": 200,
+  "coupon_width_mm": 540,
+  "substrate_mm": 6.35,
+  "edge_mm": 20,
+  "origin_x_mm": 900,
+  "origin_y_mm": -510,
+  "width_limit_mm": 20,
+  "height_limit_mm": 6,
+  "nominal_bead_height_mm": 2.9,
+  "seed": 16,
+  "planning_only": true,
+  "process": {
+    "material": null,
+    "wire_dia_mm": null,
+    "gas": null,
+    "gas_flow_l_min": null,
+    "proc": null,
+    "arc_file": null,
+    "wfs_ipm": null,
+    "voltage_v": null,
+    "ctwd_mm": null,
+    "max_start_temp_c": null,
+    "substrate_material": null,
+    "surface_prep": null,
+    "record_reference": null
+  }
+}

@@ -1,0 +1,4 @@
+[Service]
+BindReadOnlyPaths=/srv/waam/engines/ornlslicer-2.1.0/squashfs-root/nix:/nix
+Environment=WAAM_ORNL_EXECUTABLE=/nix/store/iddm44wii3b66sgavhgfyy4kz2cqfsrp-ornlslicer-2.1.0/bin/ornlslicer
+Environment=XDG_DATA_HOME=/srv/waam/waam-pipeline/tmp/ornl-service-data

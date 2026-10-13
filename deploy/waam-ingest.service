@@ -1,0 +1,55 @@
+[Unit]
+Description=WAAM run database ingest (saves/ -> PostgreSQL waam_runs, schema runindex)
+Documentation=file:/srv/waam/waam-pipeline/docs/run-database.md
+After=postgresql.service
+Wants=postgresql.service
+
+[Service]
+Type=oneshot
+User=waam
+Group=waam
+WorkingDirectory=/srv/waam/waam-pipeline/src
+Environment=PYTHONPATH=/srv/waam/waam-pipeline/src
+Environment=PYTHONUNBUFFERED=1
+Environment=PYTHONDONTWRITEBYTECODE=1
+Environment=OPENBLAS_NUM_THREADS=1
+Environment=WAAM_PG_DSN=dbname=waam_runs
+ExecStart=/srv/waam/venv/bin/python -m waam_pipeline.datastore ingest --saves /srv/waam/waam-pipeline/saves
+Nice=10
+IOSchedulingClass=idle
+TimeoutStartSec=15min
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=waam-ingest
+
+TemporaryFileSystem=/srv:ro
+BindReadOnlyPaths=/srv/waam/waam-pipeline/src /srv/waam/waam-pipeline/saves /srv/waam/venv
+InaccessiblePaths=-/etc/waam -/etc/metabase -/var/log
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+PrivateDevices=yes
+PrivateNetwork=yes
+NoNewPrivileges=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectKernelLogs=yes
+ProtectControlGroups=yes
+ProtectClock=yes
+ProtectHostname=yes
+ProtectProc=invisible
+RestrictNamespaces=yes
+RestrictRealtime=yes
+RestrictSUIDSGID=yes
+LockPersonality=yes
+RemoveIPC=yes
+RestrictAddressFamilies=AF_UNIX
+IPAddressDeny=any
+SystemCallFilter=@system-service
+SystemCallArchitectures=native
+CapabilityBoundingSet=
+AmbientCapabilities=
+UMask=0077
+MemoryMax=1G
+MemorySwapMax=0
+TasksMax=32

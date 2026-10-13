@@ -1,0 +1,262 @@
+{
+  "22d_hard_mnt_brake": {
+    "rejected_signatures": [],
+    "precision_native_to_flange_then_float32": {
+      "5": {
+        "collapsed_faces": 0,
+        "flipped_faces": 3,
+        "faces_below_display_area_threshold": 0,
+        "minimum_area_mm2": 1.0196160571824188e-06,
+        "collapsed_source_area_mm2": 0.0,
+        "flipped_source_area_mm2": 6.793779269667184e-06
+      },
+      "6": {
+        "collapsed_faces": 0,
+        "flipped_faces": 0,
+        "faces_below_display_area_threshold": 0,
+        "minimum_area_mm2": 1.0020836333769516e-06,
+        "collapsed_source_area_mm2": 0.0,
+        "flipped_source_area_mm2": 0.0
+      },
+      "source_float32": {
+        "collapsed_faces": 0,
+        "flipped_faces": 0,
+        "faces_below_display_area_threshold": 0,
+        "minimum_area_mm2": 1.0147967157625493e-06,
+        "collapsed_source_area_mm2": 0.0,
+        "flipped_source_area_mm2": 0.0
+      }
+    },
+    "exact_header_bounds_match_mm": true
+  },
+  "22d_hard_mnt": {
+    "rejected_signatures": [],
+    "precision_native_to_flange_then_float32": {
+      "5": {
+        "collapsed_faces": 1,
+        "flipped_faces": 14,
+        "faces_below_display_area_threshold": 5,
+        "minimum_area_mm2": 0.0,
+        "collapsed_source_area_mm2": 4.241788701619953e-06,
+        "flipped_source_area_mm2": 3.554859241970842e-05
+      },
+      "6": {
+        "collapsed_faces": 0,
+        "flipped_faces": 3,
+        "faces_below_display_area_threshold": 4,
+        "minimum_area_mm2": 1.3972385204397142e-07,
+        "collapsed_source_area_mm2": 0.0,
+        "flipped_source_area_mm2": 5.662930561811663e-06
+      },
+      "source_float32": {
+        "collapsed_faces": 0,
+        "flipped_faces": 0,
+        "faces_below_display_area_threshold": 0,
+        "minimum_area_mm2": 1.0071904021692586e-06,
+        "collapsed_source_area_mm2": 0.0,
+        "flipped_source_area_mm2": 0.0
+      }
+    },
+    "exact_header_bounds_match_mm": true
+  },
+  "22d_shock_mnt_brake": {
+    "rejected_signatures": [
+      {
+        "shell": 15,
+        "vertex_count": 34,
+        "reason": "False S00 signature: only float32 denormals in integer payload, no face record",
+        "maximum_absolute_coordinate": 9.251372461472442e-41
+      }
+    ],
+    "precision_native_to_flange_then_float32": {
+      "5": {
+        "collapsed_faces": 0,
+        "flipped_faces": 49,
+        "faces_below_display_area_threshold": 12,
+        "minimum_area_mm2": 4.0736557157208023e-07,
+        "collapsed_source_area_mm2": 0.0,
+        "flipped_source_area_mm2": 0.0002148343851247133
+      },
+      "6": {
+        "collapsed_faces": 0,
+        "flipped_faces": 0,
+        "faces_below_display_area_threshold": 0,
+        "minimum_area_mm2": 1.0413700937520987e-06,
+        "collapsed_source_area_mm2": 0.0,
+        "flipped_source_area_mm2": 0.0
+      },
+      "source_float32": {
+        "collapsed_faces": 0,
+        "flipped_faces": 0,
+        "faces_below_display_area_threshold": 0,
+        "minimum_area_mm2": 1.0413700937520987e-06,
+        "collapsed_source_area_mm2": 0.0,
+        "flipped_source_area_mm2": 0.0
+      }
+    },
+    "exact_header_bounds_match_mm": true
+  },
+  "22d_shock_mnt": {
+    "rejected_signatures": [],
+    "precision_native_to_flange_then_float32": {
+      "5": {
+        "collapsed_faces": 1,
+        "flipped_faces": 27,
+        "faces_below_display_area_threshold": 9,
+        "minimum_area_mm2": 0.0,
+        "collapsed_source_area_mm2": 3.54571602656506e-06,
+        "flipped_source_area_mm2": 6.597167621359733e-05
+      },
+      "6": {
+        "collapsed_faces": 0,
+        "flipped_faces": 3,
+        "faces_below_display_area_threshold": 5,
+        "minimum_area_mm2": 1.3972385204397142e-07,
+        "collapsed_source_area_mm2": 0.0,
+        "flipped_source_area_mm2": 5.662930561811663e-06
+      },
+      "source_float32": {
+        "collapsed_faces": 0,
+        "flipped_faces": 0,
+        "faces_below_display_area_threshold": 0,
+        "minimum_area_mm2": 1.0071904021692586e-06,
+        "collapsed_source_area_mm2": 0.0,
+        "flipped_source_area_mm2": 0.0
+      }
+    },
+    "exact_header_bounds_match_mm": true
+  },
+  "45d_hard_mnt_brake": {
+    "rejected_signatures": [],
+    "precision_native_to_flange_then_float32": {
+      "5": {
+        "collapsed_faces": 0,
+        "flipped_faces": 4,
+        "faces_below_display_area_threshold": 3,
+        "minimum_area_mm2": 9.58835064338431e-07,
+        "collapsed_source_area_mm2": 0.0,
+        "flipped_source_area_mm2": 5.166680136611579e-06
+      },
+      "6": {
+        "collapsed_faces": 0,
+        "flipped_faces": 0,
+        "faces_below_display_area_threshold": 1,
+        "minimum_area_mm2": 9.785017793559953e-07,
+        "collapsed_source_area_mm2": 0.0,
+        "flipped_source_area_mm2": 0.0
+      },
+      "source_float32": {
+        "collapsed_faces": 0,
+        "flipped_faces": 0,
+        "faces_below_display_area_threshold": 0,
+        "minimum_area_mm2": 1.0220241725352413e-06,
+        "collapsed_source_area_mm2": 0.0,
+        "flipped_source_area_mm2": 0.0
+      }
+    },
+    "exact_header_bounds_match_mm": true
+  },
+  "45d_hard_mnt": {
+    "rejected_signatures": [],
+    "precision_native_to_flange_then_float32": {
+      "5": {
+        "collapsed_faces": 1,
+        "flipped_faces": 15,
+        "faces_below_display_area_threshold": 4,
+        "minimum_area_mm2": 0.0,
+        "collapsed_source_area_mm2": 4.241788701619953e-06,
+        "flipped_source_area_mm2": 3.701153945658855e-05
+      },
+      "6": {
+        "collapsed_faces": 0,
+        "flipped_faces": 3,
+        "faces_below_display_area_threshold": 3,
+        "minimum_area_mm2": 1.3972385204397142e-07,
+        "collapsed_source_area_mm2": 0.0,
+        "flipped_source_area_mm2": 5.662930561811663e-06
+      },
+      "source_float32": {
+        "collapsed_faces": 0,
+        "flipped_faces": 0,
+        "faces_below_display_area_threshold": 0,
+        "minimum_area_mm2": 1.0137682693311945e-06,
+        "collapsed_source_area_mm2": 0.0,
+        "flipped_source_area_mm2": 0.0
+      }
+    },
+    "exact_header_bounds_match_mm": true
+  },
+  "45d_shock_mnt_brake": {
+    "rejected_signatures": [
+      {
+        "shell": 15,
+        "vertex_count": 37,
+        "reason": "False S00 signature: only float32 denormals in integer payload, no face record",
+        "maximum_absolute_coordinate": 9.28458323507694e-41
+      },
+      {
+        "shell": 16,
+        "vertex_count": 285,
+        "reason": "False S00 signature: only float32 denormals in integer payload, no face record",
+        "maximum_absolute_coordinate": 9.289207520009212e-41
+      }
+    ],
+    "precision_native_to_flange_then_float32": {
+      "5": {
+        "collapsed_faces": 0,
+        "flipped_faces": 49,
+        "faces_below_display_area_threshold": 13,
+        "minimum_area_mm2": 4.0736557157208023e-07,
+        "collapsed_source_area_mm2": 0.0,
+        "flipped_source_area_mm2": 0.000214560157738768
+      },
+      "6": {
+        "collapsed_faces": 0,
+        "flipped_faces": 0,
+        "faces_below_display_area_threshold": 0,
+        "minimum_area_mm2": 1.0413700937520987e-06,
+        "collapsed_source_area_mm2": 0.0,
+        "flipped_source_area_mm2": 0.0
+      },
+      "source_float32": {
+        "collapsed_faces": 0,
+        "flipped_faces": 0,
+        "faces_below_display_area_threshold": 0,
+        "minimum_area_mm2": 1.0413700937520987e-06,
+        "collapsed_source_area_mm2": 0.0,
+        "flipped_source_area_mm2": 0.0
+      }
+    },
+    "exact_header_bounds_match_mm": true
+  },
+  "45d_shock_mnt": {
+    "rejected_signatures": [],
+    "precision_native_to_flange_then_float32": {
+      "5": {
+        "collapsed_faces": 1,
+        "flipped_faces": 25,
+        "faces_below_display_area_threshold": 8,
+        "minimum_area_mm2": 0.0,
+        "collapsed_source_area_mm2": 3.54571602656506e-06,
+        "flipped_source_area_mm2": 6.231178808061862e-05
+      },
+      "6": {
+        "collapsed_faces": 0,
+        "flipped_faces": 3,
+        "faces_below_display_area_threshold": 4,
+        "minimum_area_mm2": 1.3972385204397142e-07,
+        "collapsed_source_area_mm2": 0.0,
+        "flipped_source_area_mm2": 5.662930561811663e-06
+      },
+      "source_float32": {
+        "collapsed_faces": 0,
+        "flipped_faces": 0,
+        "faces_below_display_area_threshold": 0,
+        "minimum_area_mm2": 1.0137682693311945e-06,
+        "collapsed_source_area_mm2": 0.0,
+        "flipped_source_area_mm2": 0.0
+      }
+    },
+    "exact_header_bounds_match_mm": true
+  }
+}

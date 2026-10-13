@@ -1,0 +1,59 @@
+{
+  "source_archive": "AW-HC.zip",
+  "source_archive_sha256": "74a5128f86eea7071ce5e4e8447d2f83faeb43c495ad3fa945cec8e6d0abac81",
+  "source_member": "AW-HC/models/Yaskawa_Torch.hsf",
+  "source_sha256": "14eb4225c56400b76a3364f010d308e32ab84598d07c277414257f14d9f0d5d7",
+  "format": ";; HSF V20.95",
+  "units": "mm",
+  "array_frame": "native HSF mm, unrotated",
+  "array_key": "Yaskawa_Torch",
+  "triangles": 13953,
+  "bounds_native_mm": [
+    [
+      -34.964759826660156,
+      -35.0,
+      -35.83420181274414
+    ],
+    [
+      224.36109924316406,
+      34.859100341796875,
+      289.9335632324219
+    ]
+  ],
+  "mounting": {
+    "vcl_model": "Yaskawa_Torch",
+    "vcl_parent": "YRC1000-R01_flange",
+    "vcl_axis6": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "vcl_scale": 0.001,
+    "note": "Identity AXIS6: native Z=0 is the flange mating face, mounted directly on YRC1000-R01_flange with no extra VCL rotation. VCL SCALE=0.001 is the mm-to-metre boundary for MotoSim and must not be reapplied to these native-millimetre triangles."
+  },
+  "tool_data_vendor_nominal": {
+    "vcl_model": "Yaskawa_TCP",
+    "vcl_parent": "Yaskawa_Torch",
+    "local_xyz_mm": [
+      -2.87,
+      -0.0,
+      298.338
+    ],
+    "local_rxryrz_deg": [
+      0.0,
+      -46.5,
+      0.0
+    ],
+    "status": "Vendor-nominal MotoSim dummy marker from AW-HC.vcl, not a calibrated or controller-taught TCP. Distance from the torch's own native origin (the flange face) is 298.352 mm."
+  },
+  "mesh_sha256": "ba70fe4e33425d5e63f84f9403688fd42f8f9d1d3bf140f8624e8da9beae1a18",
+  "decoder_sha256": "ca1bcf79acb850b27e434e9bea311dfe3a4e29ff6923dee5c403ebea5ba230fb",
+  "notes": [
+    "Display-only vendor MotoSim HSF tessellation, not a BRep or a collision/calibration source.",
+    "Decoded with the project's general import_motosim_hsf.py reader; the torch's largest shell is far under its 500,000-point cap, so no VTK reduction is used or needed.",
+    "Triangles are native HSF millimetres, unrotated. cell_hc.py applies the native-to-project-flange-frame rotation at mount time, the same rotation cell_models.py's yaskawa_torch_parts() applies at read time for the LC torch."
+  ]
+}

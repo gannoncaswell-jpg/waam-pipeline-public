@@ -1,0 +1,15 @@
+{
+  "name": "waam-pipeline-checks",
+  "private": true,
+  "description": "Development-only JavaScript checks for the WAAM workbench",
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24.0.0"
+  },
+  "scripts": {
+    "lint:js": "node tools/lint-js.mjs"
+  },
+  "devDependencies": {
+    "eslint": "10.11.0",
+    "globals": "17.12.0"
+  }
+}

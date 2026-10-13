@@ -1,0 +1,11 @@
+{
+  "name": "hc10-miller",
+  "robot": "hc10",
+  "tool_number": 0,
+  "user_frame": 1,
+  "arc_file": 69,
+  "weave_file": null,
+  "between_layer_job": "JOBWAAM",
+  "ctwd_mm": 12.7,
+  "safe_z_mm": 50.0
+}

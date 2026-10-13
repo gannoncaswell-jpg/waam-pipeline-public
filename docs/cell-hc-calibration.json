@@ -1,0 +1,68 @@
+{
+  "measured_date": "2026-09-20",
+  "surface": "HC10 table",
+  "tool": 0,
+  "coordinates": "PULSE",
+  "provenance": "Photo-transcribed from Torch_Robot_Calibration_Transcription_2026-09-20.pdf (ruler beside the contact tip).",
+  "distance_uncertainty_mm": 0.5,
+  "touch_offs": [
+    {
+      "id": "P1",
+      "pulses_SLURBT": [
+        -60646,
+        107256,
+        -78237,
+        3108,
+        47529,
+        -5111
+      ],
+      "vertical_distance_mm": 13.0
+    },
+    {
+      "id": "P2",
+      "pulses_SLURBT": [
+        -2094,
+        107358,
+        -78285,
+        3108,
+        47529,
+        -5111
+      ],
+      "vertical_distance_mm": 13.0
+    },
+    {
+      "id": "P3",
+      "pulses_SLURBT": [
+        76642,
+        98102,
+        -153953,
+        -190160,
+        64767,
+        -19356
+      ],
+      "vertical_distance_mm": 10.0
+    },
+    {
+      "id": "P4",
+      "pulses_SLURBT": [
+        219952,
+        100931,
+        -155430,
+        -218336,
+        57337,
+        -24425
+      ],
+      "vertical_distance_mm": 6.0
+    }
+  ],
+  "_fitted": {
+    "offset_mm": -18.787815,
+    "tilt_deg": 0.414026,
+    "residual_mm": 0.039067,
+    "centroid_mm": [
+      127.803379,
+      -34.696398,
+      948.44479
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+[Unit]
+Description=WAAM studio workbench (slicer + clearance + emit, over HTTP)
+Documentation=file:/srv/waam/waam-pipeline/docs/vm-server-setup.md
+After=network-online.target
+Wants=network-online.target
+StartLimitIntervalSec=60
+StartLimitBurst=5
+
+[Service]
+Type=exec
+User=waam
+Group=waam
+
+WorkingDirectory=/srv/waam/waam-pipeline
+
+Environment=PYTHONPATH=src
+Environment=PYTHONUNBUFFERED=1
+Environment=HOME=/srv/waam
+
+EnvironmentFile=-/etc/waam/workbench.env
+EnvironmentFile=-/etc/waam/run-logs.env
+
+ExecStart=/srv/waam/venv/bin/python -m waam_pipeline.server \
+    --host 127.0.0.1 \
+    --port 8017 \
+    --require-token
+
+ExecReload=/bin/kill -HUP $MAINPID
+
+Restart=always
+RestartSec=3
+KillSignal=SIGTERM
+TimeoutStopSec=10
+
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=waam-workbench
+
+NoNewPrivileges=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectSystem=strict
+ProtectHome=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectKernelLogs=yes
+ProtectControlGroups=yes
+ProtectClock=yes
+ProtectHostname=yes
+ProtectProc=invisible
+RestrictNamespaces=yes
+RestrictRealtime=yes
+RestrictSUIDSGID=yes
+LockPersonality=yes
+RemoveIPC=yes
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+CapabilityBoundingSet=
+AmbientCapabilities=
+
+ReadWritePaths=/srv/waam/waam-pipeline
+
+MemoryMax=3G
+TasksMax=256
+
+[Install]
+WantedBy=multi-user.target

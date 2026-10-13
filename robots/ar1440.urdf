@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<robot name="motoman_ar1440">
+  <link name="base_link"><visual><origin xyz="0.0000 0.0000 0.0000"/><geometry><mesh filename="meshes/ar1440/visual/gp12_base_link.stl"/></geometry><material name="yaskawa_blue"><color rgba="0.25 0.4 0.75 1"/></material></visual><collision><origin xyz="0.0000 0.0000 0.0000"/><geometry><mesh filename="meshes/ar1440/collision/gp12_base_link.stl"/></geometry></collision></link>
+  <link name="link_1_s"><visual><origin xyz="0.0000 0.0000 0.4500"/><geometry><mesh filename="meshes/ar1440/visual/gp12_link_1_s.stl"/></geometry><material name="yaskawa_blue"><color rgba="0.25 0.4 0.75 1"/></material></visual><collision><origin xyz="0.0000 0.0000 0.4500"/><geometry><mesh filename="meshes/ar1440/collision/gp12_link_1_s.stl"/></geometry></collision></link>
+  <joint name="joint_1_s" type="revolute"><parent link="base_link"/><child link="link_1_s"/><origin xyz="0.0000 0.0000 0.0000"/><axis xyz="0 0 1"/><limit lower="-2.9671" upper="2.9671" velocity="4.5379" effort="1000"/></joint>
+  <link name="link_2_l"><visual><origin xyz="0.0000 0.0000 0.0000"/><geometry><mesh filename="meshes/ar1440/visual/gp12_link_2_l.stl"/></geometry><material name="yaskawa_blue"><color rgba="0.25 0.4 0.75 1"/></material></visual><collision><origin xyz="0.0000 0.0000 0.0000"/><geometry><mesh filename="meshes/ar1440/collision/gp12_link_2_l.stl"/></geometry></collision></link>
+  <joint name="joint_2_l" type="revolute"><parent link="link_1_s"/><child link="link_2_l"/><origin xyz="0.1550 0.0000 0.4500"/><axis xyz="0 1 0"/><limit lower="-1.5708" upper="2.7053" velocity="4.0143" effort="1000"/></joint>
+  <link name="link_3_u"><visual><origin xyz="0.0000 0.0000 0.0000"/><geometry><mesh filename="meshes/ar1440/visual/gp12_link_3_u.stl"/></geometry><material name="yaskawa_blue"><color rgba="0.25 0.4 0.75 1"/></material></visual><collision><origin xyz="0.0000 0.0000 0.0000"/><geometry><mesh filename="meshes/ar1440/collision/gp12_link_3_u.stl"/></geometry></collision></link>
+  <joint name="joint_3_u" type="revolute"><parent link="link_2_l"/><child link="link_3_u"/><origin xyz="0.0000 0.0000 0.6140"/><axis xyz="0 -1 0"/><limit lower="-1.4835" upper="2.4544" velocity="4.5379" effort="1000"/></joint>
+  <link name="link_4_r"><visual><origin xyz="0.6400 0.0000 0.0000"/><geometry><mesh filename="meshes/ar1440/visual/gp12_link_4_r.stl"/></geometry><material name="yaskawa_blue"><color rgba="0.25 0.4 0.75 1"/></material></visual><collision><origin xyz="0.6400 0.0000 0.0000"/><geometry><mesh filename="meshes/ar1440/collision/gp12_link_4_r.stl"/></geometry></collision></link>
+  <joint name="joint_4_r" type="revolute"><parent link="link_3_u"/><child link="link_4_r"/><origin xyz="0.0000 0.0000 0.2000"/><axis xyz="-1 0 0"/><limit lower="-2.6180" upper="2.6180" velocity="8.2030" effort="1000"/></joint>
+  <link name="link_5_b"><visual><origin xyz="0.0000 0.0000 0.0000"/><geometry><mesh filename="meshes/ar1440/visual/gp12_link_5_b.stl"/></geometry><material name="yaskawa_blue"><color rgba="0.25 0.4 0.75 1"/></material></visual><collision><origin xyz="0.0000 0.0000 0.0000"/><geometry><mesh filename="meshes/ar1440/collision/gp12_link_5_b.stl"/></geometry></collision></link>
+  <joint name="joint_5_b" type="revolute"><parent link="link_4_r"/><child link="link_5_b"/><origin xyz="0.6400 0.0000 0.0000"/><axis xyz="0 -1 0"/><limit lower="-2.3562" upper="1.5708" velocity="8.2030" effort="1000"/></joint>
+  <link name="link_6_t"><visual><origin xyz="-0.1000 0.0000 0.0000"/><geometry><mesh filename="meshes/ar1440/visual/gp12_link_6_t.stl"/></geometry><material name="yaskawa_blue"><color rgba="0.25 0.4 0.75 1"/></material></visual><collision><origin xyz="-0.1000 0.0000 0.0000"/><geometry><mesh filename="meshes/ar1440/collision/gp12_link_6_t.stl"/></geometry></collision></link>
+  <joint name="joint_6_t" type="revolute"><parent link="link_5_b"/><child link="link_6_t"/><origin xyz="0.1000 0.0000 0.0000"/><axis xyz="-1 0 0"/><limit lower="-3.6652" upper="3.6652" velocity="12.2173" effort="1000"/></joint>
+  <link name="flange"/>  <joint name="flange_fixed" type="fixed"><parent link="link_6_t"/><child link="flange"/><origin xyz="0 0 0"/></joint>
+
+
+
+
+
+
+  <link name="station_base"><visual><origin xyz="0.000000 -0.190000 0.000000" rpy="0.000000 0.000000 0.000000"/><geometry><box size="0.340000 0.340000 0.400000"/></geometry><material name="station_grey"><color rgba="0.55 0.55 0.58 1"/></material></visual><collision><origin xyz="0.000000 -0.190000 0.000000" rpy="0.000000 0.000000 0.000000"/><geometry><box size="0.340000 0.340000 0.400000"/></geometry></collision><visual><origin xyz="0.000000 -0.130000 -0.543350" rpy="0.000000 0.000000 0.000000"/><geometry><box size="0.310000 0.360000 0.638500"/></geometry><material name="station_grey"><color rgba="0.55 0.55 0.58 1"/></material></visual><collision><origin xyz="0.000000 -0.130000 -0.543350" rpy="0.000000 0.000000 0.000000"/><geometry><box size="0.310000 0.360000 0.638500"/></geometry></collision></link>
+  <joint name="station_mount" type="fixed"><parent link="base_link"/><child link="station_base"/><origin xyz="0.967800 -0.641400 0.120200"/></joint>
+  <link name="station_faceplate"><visual><origin xyz="0.000000 -0.006000 0.000000" rpy="-1.570796 0.000000 0.000000"/><geometry><cylinder radius="0.160000" length="0.012000"/></geometry><material name="station_grey"><color rgba="0.55 0.55 0.58 1"/></material></visual><collision><origin xyz="0.000000 -0.006000 0.000000" rpy="-1.570796 0.000000 0.000000"/><geometry><cylinder radius="0.160000" length="0.012000"/></geometry></collision></link>
+
+
+
+
+
+
+
+  <joint name="joint_s1_station" type="revolute"><parent link="station_base"/><child link="station_faceplate"/><origin xyz="0 0 0"/><axis xyz="0 1 0"/><limit lower="-6.2832" upper="6.2832" effort="268.0" velocity="1.2985"/></joint>
+  <link name="station_platter"><visual><origin xyz="0.000000 0.009525 0.000000" rpy="-1.570796 0.000000 0.000000"/><geometry><cylinder radius="0.200000" length="0.019050"/></geometry><material name="station_grey"><color rgba="0.55 0.55 0.58 1"/></material></visual><collision><origin xyz="0.000000 0.009525 0.000000" rpy="-1.570796 0.000000 0.000000"/><geometry><cylinder radius="0.200000" length="0.019050"/></geometry></collision></link>
+  <joint name="station_platter_fixed" type="fixed"><parent link="station_faceplate"/><child link="station_platter"/><origin xyz="0 0 0"/></joint>
+</robot>

@@ -1,0 +1,38 @@
+{
+  "engine": "ornl",
+  "version": "2.1.0",
+  "profile_version": 1,
+  "options": {
+    "layer_height_mm": 2,
+    "bead_width_mm": 6,
+    "feed_mm_min": 180,
+    "contours": 2,
+    "stepover_percent": 75.0,
+    "pattern": "lines",
+    "angle_deg": 0.0,
+    "angle_rotation_deg": 90.0,
+    "travel_lift_mm": 5.0
+  },
+  "spacing_mm": 4.5,
+  "job_sha256": "ae185b2899bfd4a616ac14f3fd7a90cdee9be0241aecd1df46a6c8141447b8bf",
+  "profile_sha256": "707e7bef992896ae7983210ff2984d5c443e89a181c73dd361405a57101f65f4",
+  "mesh_sha256": "b98207cc83c854cc56e2552a074599d59a9a12290ce85f0dd001281e7dafa817",
+  "output_sha256": "fc3c4a3df734137d25fe8bc82d15baa7831c94e6311767849f7b9d6f7e0ea4dc",
+  "region_length_mm": {
+    "perimeter": 528.0,
+    "inset": 420.0,
+    "infill": 476.5
+  },
+  "input_height_mm": 6.0,
+  "build_height_mm": 6.0,
+  "note": "Geometric bead spacing is a planning input; fusion and weld parameters require cell validation.",
+  "raster_directions": [
+    "y",
+    "x",
+    "y"
+  ],
+  "nominal_area_coverage_fraction": 0.9825,
+  "moves": 88,
+  "layers": 3,
+  "arc_starts": 9
+}

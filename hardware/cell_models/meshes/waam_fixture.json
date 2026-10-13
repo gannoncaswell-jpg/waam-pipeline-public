@@ -1,0 +1,15 @@
+{
+  "source": "CAD_FIXTURE_001.STL",
+  "source_sha256": "04d13819c58d83fdb035daec5c381a34213e2a7343c0c64cee9f888f0f5f9356",
+  "mesh_sha256": "40ecf76c3793934dab33cdc59ccd1cdffaba076f0f9cfb2f7ca49e81e33368df",
+  "triangles": 3536,
+  "units": "mm; verified against the 20 x 10 inch drawing, STL is unitless",
+  "frame": "X along 508 mm length, Y across 254 mm width, Z up; underside Z=0; XY centered",
+  "native_to_local_axes": "[X, Z, -Y], then center XY and set underside Z=0; raised bars above plate per drawing rev 1",
+  "size_mm": [
+    508.0,
+    254.0,
+    50.8
+  ],
+  "registration": "unverified; reference asset only, absent from the default live scene"
+}

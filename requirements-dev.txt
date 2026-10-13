@@ -1,0 +1,5 @@
+-e .[test,release]
+ruff==0.16.9
+bandit==1.9.4
+PyYAML==6.0.3
+psycopg[binary]>=3.2,<4

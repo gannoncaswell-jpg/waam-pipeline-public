@@ -1,0 +1,12 @@
+{
+  "name": "lc50s-ar1440",
+  "robot": "ar1440",
+  "tool_number": 0,
+  "user_frame": 0,
+  "arc_file": 81,
+  "weave_file": null,
+  "between_layer_job": "CLEAN_R1",
+  "ctwd_mm": 9.525,
+  "safe_z_mm": 50.0,
+  "proc": 4
+}
